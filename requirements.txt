@@ -1,0 +1,4 @@
+streamlist
+sympy
+numpy
+matplotlib
