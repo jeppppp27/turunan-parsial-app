@@ -18,7 +18,7 @@ try:
     st.latex(f"\\frac{{\\partial f}}{{\\partial y}} = {sp.latex(fy)}")
 
     x0 = st.number_input("Nilai x₀:", value=1.0)
-    y0 = st.number_input("Nilai y₀:", value=2.0)
+    y0 = st.number_input("Nilai y₀:", value=1.0)
 
     f_val = f.subs({x: x0, y: y0})
     fx_val = fx.subs({x: x0, y: y0})
