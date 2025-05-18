@@ -1,0 +1,1 @@
+# turuna-parsial-app
